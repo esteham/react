@@ -1,0 +1,24 @@
+/*UserCard.css*/
+.user-card-container {
+  display: flex;
+  font-family: Arial, sans-serif;
+  padding: 5px;
+  background-color: #c7c7c7;
+  flex-direction: row;
+}
+.user-card {
+  width: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+}
+
+.user-card h2 {
+  margin: 0 0 10px;
+}
+
+.user-card p {
+  margin: 5px 0;
+}
