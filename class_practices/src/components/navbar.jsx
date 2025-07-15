@@ -34,6 +34,9 @@ const Navbar = () => {
       <Link to="/switchRoleBaseRander" style={{ marginRight: "10px" }}>
         Switch Role
       </Link>
+      <Link to="/listRandering" style={{ marginRight: "10px" }}>
+        List (State)
+      </Link>
     </nav>
   );
 };

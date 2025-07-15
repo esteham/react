@@ -12,6 +12,7 @@ import NameInput from "./pages/state/stateNameInput";
 import StateInDe from "./pages/state/stateInDe";
 import RoleBaseRander from "./pages/ifelse/ifElseRoleBaseRander";
 import SwitchRoleBaseRander from "./pages/switchCase/switchRoleBaseRander";
+import ListRendering from "./pages/state/listRandering";
 
 // import Footer from "./components/footer";
 
@@ -36,6 +37,7 @@ function App() {
               path="/switchRoleBaseRander"
               element={<SwitchRoleBaseRander />}
             />
+            <Route path="/listRandering" element={<ListRendering />} />
           </Routes>
         </main>
 
