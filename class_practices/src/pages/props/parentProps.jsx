@@ -1,5 +1,5 @@
-import React from 'react';
-import ChildProps from '../components/childProps'; 
+import React from "react";
+import ChildProps from "../../components/childProps";
 
 const ParentProps = () => {
   return (
